@@ -1,0 +1,22 @@
+seed 3
+tg_label TASK_GRAPH
+tg_cnt 1
+task_cnt 40 0.001
+task_type_cnt 20
+task_trans_time 1
+deadline_jitter 0
+period_mul 1
+task_degree 3 4
+task_unique false
+tg_write
+eps_write
+table_label PE
+table_cnt 2
+table_attrib \
+  frequency 1e9 0 0, \
+  voltage 1 0 0, \
+  ngate 40e4 0 0
+type_attrib \
+  effective_switched_capacitance 11e-9 10e-9 0, \
+  number_of_clock_cycles 5.5e6 4.5e6 0
+pe_write
