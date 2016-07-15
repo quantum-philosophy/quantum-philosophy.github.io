@@ -19,22 +19,22 @@ systems via adaptive hierarchical interpolation.&rdquo;
 <h1>Implementation</h1>
 <p>The implementation is open source. It is written in <a
 href='https://golang.org/'>Go</a>, and the corresponding source code is
-available on <a href='https://github.com'>GitHub</a>. Specifically, the code is
-split between two organizations:
+available on <a href='https://github.com'>GitHub</a>. More concretely, the code
+is split between two organizations:
 
 <ul>
 <li><a href='https://github.com/ready-steady'>Ready Steady</a>, which contains
-codes of general interest, and
+libraries of general interest, and
 
 <li><a href='https://github.com/turing-complete'>Turing Complete</a>, which
-contains codes specific to simulation of electronic systems.
+contains libraries specific to system simulation.
 </ul>
 
 <h2>Ready Steady</h2>
-<p>The organization deals with such interrelated disciplines as linear algebra,
-statistics, probability theory, and numerical analysis. In particular, it
-contains an implementation of the adaptive interpolation algorithm described in
-the paper.
+<p>The organization provides libraries for such interrelated disciplines as
+linear algebra, statistics, probability theory, and numerical analysis. In
+particular, it contains an implementation of the adaptive interpolation
+algorithm described in the paper.
 
 <p>The highlights of the organization:
 <ul>
@@ -43,10 +43,10 @@ adaptive interpolation algorithm.
 </ul>
 
 <h2>Turing Complete</h2>
-<p>The organization deals with the simulation of timing-, power-, and
-temperature-related characteristics of multiprocessor platforms executing
-applications given as directed acyclic task graphs. It also contains the
-experimental setup described in the paper.
+<p>The organization provides libraries for the simulation of timing-, power-,
+and temperature-related characteristics of multiprocessor platforms executing
+applications given as directed acyclic graphs. It also contains the experimental
+setup described in the paper.
 
 <p>The highlights of the organization:
 <ul>
