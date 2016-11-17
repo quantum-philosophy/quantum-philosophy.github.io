@@ -9,18 +9,21 @@
 <body>
 <article>
 
-<h1>Introduction</h1>
+<h1>Probabilistic Analysis of Electronic Systems via Adaptive Hierarchical
+Interpolation</h1>
+
+<h2>Introduction</h2>
 <p>The page concerns the following work under submission:
 <ul>
 <li>I. Ukhov, P. Eles, and Z. Peng, &ldquo;Probabilistic analysis of electronic
 systems via adaptive hierarchical interpolation.&rdquo;
 </ul>
 
-<h1>Implementation</h1>
-<p>The implementation is open source. It is written in <a
-href='https://golang.org/'>Go</a>, and the corresponding source code is
-available on <a href='https://github.com'>GitHub</a>. More concretely, the code
-is split between two organizations:
+<h2>Implementation</h2>
+<p>The implementation is open source. It is written in the
+<a href='https://golang.org/'>Go</a> programming language, and the corresponding
+source code is available on <a href='https://github.com'>GitHub</a>. More
+concretely, the code is split between two organizations:
 
 <ul>
 <li><a href='https://github.com/ready-steady'>Ready Steady</a>, which contains
@@ -30,31 +33,37 @@ libraries of general interest, and
 contains libraries specific to system simulation.
 </ul>
 
-<h2>Ready Steady</h2>
+<h3>Ready Steady</h3>
 <p>The organization provides libraries for such interrelated disciplines as
 linear algebra, statistics, probability theory, and numerical analysis. In
 particular, it contains an implementation of the adaptive interpolation
 algorithm described in the paper.
 
-<p>The highlights of the organization:
+<p>The highlights of the organization are:
 <ul>
 <li><a href='https://github.com/ready-steady/adapt'>adapt</a> &mdash; the
 adaptive interpolation algorithm.
 </ul>
 
-<h2>Turing Complete</h2>
+<h3>Turing Complete</h3>
 <p>The organization provides libraries for the simulation of timing-, power-,
 and temperature-related characteristics of multiprocessor platforms executing
 applications given as directed acyclic graphs. It also contains the experimental
 setup described in the paper.
 
-<p>The highlights of the organization:
+<p>The highlights of the organization are:
 <ul>
 <li><a href='https://github.com/turing-complete/laboratory'>laboratory</a>
-&mdash; the experimental setup.
+&mdash; the synthetic examples,
+
+<li><a href='https://github.com/turing-complete/application'>application</a>
+&mdash; the real-life example, and
+
+<li><a href='https://github.com/turing-complete/environment'>environment</a>
+&mdash; the environment for running the real-life example.
 </ul>
 
-<h1>License</h1>
+<h2>License</h2>
 <p>All the codes are distributed under the terms of the
 <a href='https://opensource.org/licenses/MIT'>MIT License</a>.
 
