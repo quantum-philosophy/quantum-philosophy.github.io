@@ -45,6 +45,10 @@ li {
   padding: 0.1em 0 0.1em 0;
 }
 
+li + li {
+  padding-top: 0.2em;
+}
+
 p, li {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
